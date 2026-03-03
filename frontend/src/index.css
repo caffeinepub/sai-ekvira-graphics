@@ -1,0 +1,136 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700;800;900&family=Open+Sans:wght@400;500;600&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  :root {
+    --radius: 0.5rem;
+
+    /* Brand Colors - CMYK-inspired */
+    --navy: 0.22 0.12 264;
+    --orange: 0.65 0.22 42;
+    --cyan-brand: 0.72 0.14 210;
+    --magenta-brand: 0.55 0.22 330;
+    --yellow-brand: 0.88 0.18 95;
+
+    /* Semantic tokens */
+    --background: 0.99 0 0;
+    --foreground: 0.15 0.02 264;
+    --card: 1 0 0;
+    --card-foreground: 0.15 0.02 264;
+    --popover: 1 0 0;
+    --popover-foreground: 0.15 0.02 264;
+    --primary: 0.22 0.12 264;
+    --primary-foreground: 0.99 0 0;
+    --secondary: 0.65 0.22 42;
+    --secondary-foreground: 0.99 0 0;
+    --muted: 0.96 0.01 264;
+    --muted-foreground: 0.45 0.04 264;
+    --accent: 0.72 0.14 210;
+    --accent-foreground: 0.99 0 0;
+    --destructive: 0.577 0.245 27.325;
+    --destructive-foreground: 0.985 0 0;
+    --border: 0.88 0.02 264;
+    --input: 0.88 0.02 264;
+    --ring: 0.65 0.22 42;
+    --chart-1: 0.646 0.222 41.116;
+    --chart-2: 0.6 0.118 184.704;
+    --chart-3: 0.398 0.07 227.392;
+    --chart-4: 0.828 0.189 84.429;
+    --chart-5: 0.769 0.188 70.08;
+    --sidebar: 0.22 0.12 264;
+    --sidebar-foreground: 0.99 0 0;
+    --sidebar-primary: 0.65 0.22 42;
+    --sidebar-primary-foreground: 0.99 0 0;
+    --sidebar-accent: 0.28 0.1 264;
+    --sidebar-accent-foreground: 0.99 0 0;
+    --sidebar-border: 0.3 0.08 264;
+    --sidebar-ring: 0.65 0.22 42;
+  }
+
+  * {
+    @apply border-border;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    @apply bg-background text-foreground;
+    font-family: 'Open Sans', sans-serif;
+  }
+
+  h1, h2, h3, h4, h5, h6 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+  }
+}
+
+@layer utilities {
+  .font-heading {
+    font-family: 'Montserrat', sans-serif;
+  }
+
+  .text-navy {
+    color: oklch(var(--navy));
+  }
+
+  .bg-navy {
+    background-color: oklch(var(--navy));
+  }
+
+  .text-orange-brand {
+    color: oklch(var(--orange));
+  }
+
+  .bg-orange-brand {
+    background-color: oklch(var(--orange));
+  }
+
+  .text-cyan-brand {
+    color: oklch(var(--cyan-brand));
+  }
+
+  .bg-cyan-brand {
+    background-color: oklch(var(--cyan-brand));
+  }
+
+  .text-magenta-brand {
+    color: oklch(var(--magenta-brand));
+  }
+
+  .bg-magenta-brand {
+    background-color: oklch(var(--magenta-brand));
+  }
+
+  .text-yellow-brand {
+    color: oklch(var(--yellow-brand));
+  }
+
+  .bg-yellow-brand {
+    background-color: oklch(var(--yellow-brand));
+  }
+
+  .section-heading {
+    @apply text-3xl md:text-4xl font-heading font-bold text-navy mb-3;
+  }
+
+  .section-subheading {
+    @apply text-base md:text-lg text-muted-foreground max-w-2xl mx-auto;
+  }
+
+  .btn-primary {
+    @apply bg-orange-brand text-white font-heading font-bold px-6 py-3 rounded-md hover:opacity-90 transition-all duration-200 inline-flex items-center gap-2;
+  }
+
+  .btn-secondary {
+    @apply bg-navy text-white font-heading font-bold px-6 py-3 rounded-md hover:opacity-90 transition-all duration-200 inline-flex items-center gap-2;
+  }
+
+  .btn-outline {
+    @apply border-2 border-white text-white font-heading font-bold px-6 py-3 rounded-md hover:bg-white hover:text-navy transition-all duration-200 inline-flex items-center gap-2;
+  }
+}

@@ -1,0 +1,195 @@
+{
+  "kind": "feature_evidence_report",
+  "features": [
+    {
+      "featureId": "feature-apply-a-cmyk-inspired-visual-theme-throughout-the-website-deep-navy-blue-0a1f5c-as-primary-vibrant-orange-ff6b00-as-secondary-accent-with-cyan-00aeef-magenta-ec008c-and-yellow-ffd700-as-highlight-accents-on-white-ffffff-backgrounds-use-bold-modern-typography-e-g-a-strong-sans-serif-for-headings-the-design-should-feel-vibrant-yet-professional-mobile-responsive-and-evoke-a-high-energy-indian-commercial-printing-shop",
+      "featureTitle": "Apply a CMYK-inspired visual theme throughout the website: deep navy blue (#0A1F5C) as primary, vibrant orange (#FF6B00) as secondary accent, with cyan (#00AEEF), magenta (#EC008C), and yellow (#FFD700) as highlight accents on white (#FFFFFF) backgrounds. Use bold, modern typography (e.g., a strong sans-serif for headings). The design should feel vibrant yet professional, mobile-responsive, and evoke a high-energy Indian commercial printing shop.",
+      "files": [
+        "frontend/src/index.css",
+        "frontend/tailwind.config.js"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-1"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-full-width-hero-section-at-the-top-of-the-page-featuring-a-printing-themed-background-image-colorful-banners-large-format-printers-finished-hoardings-flex-prints-overlay-the-business-name-sai-ekvira-graphics-as-a-large-headline-the-tagline-quality-printing-solutions-in-kalyan-fast-affordable-reliable-and-three-prominent-cta-buttons-call-now-tel-09702477181-whatsapp-us-https-wa-me-919702477181-and-get-quote-scrolls-to-contact-section",
+      "featureTitle": "Build a full-width Hero section at the top of the page featuring a printing-themed background image (colorful banners, large-format printers, finished hoardings/flex prints). Overlay the business name 'Sai Ekvira Graphics' as a large headline, the tagline 'Quality Printing Solutions in Kalyan – Fast, Affordable & Reliable', and three prominent CTA buttons: 'Call Now' (tel:09702477181), 'WhatsApp Us' (https://wa.me/919702477181), and 'Get Quote' (scrolls to contact section).",
+      "files": [
+        "frontend/src/components/Hero.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-2"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-an-about-us-section-with-the-heading-about-us-and-the-body-text-leading-commercial-printing-service-in-kalyan-offering-top-quality-digital-offset-printing-banner-printing-flex-printing-visiting-cards-pamphlets-wedding-invitations-and-custom-branding-solutions-with-fast-turnaround-and-affordable-prices-include-operating-hours-monday-saturday-10-am-9-pm-sunday-closed-include-the-address-shop-no-09-namrata-heights-chs-adharwadi-kalyan-west-mumbai-maharashtra-421301",
+      "featureTitle": "Build an About Us section with the heading 'About Us' and the body text: 'Leading commercial printing service in Kalyan offering top-quality digital & offset printing, banner printing, flex printing, visiting cards, pamphlets, wedding invitations, and custom branding solutions with fast turnaround and affordable prices.' Include operating hours: Monday–Saturday 10 AM – 9 PM, Sunday Closed. Include the address: Shop No 09, Namrata Heights CHS, Adharwadi, Kalyan West, Mumbai, Maharashtra 421301.",
+      "files": [
+        "frontend/src/components/About.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-3"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-an-our-services-section-displaying-8-service-cards-in-a-responsive-grid-each-card-should-have-an-icon-image-service-name-and-a-short-one-line-description-services-1-flex-banner-printing-2-digital-printing-3-visiting-cards-4-brochures-pamphlets-5-poster-printing-6-signage-shop-boards-7-vehicle-graphics-branding-8-photo-prints-wedding-cards-cards-should-have-a-hover-effect-using-the-accent-color-palette",
+      "featureTitle": "Build an Our Services section displaying 8 service cards in a responsive grid. Each card should have an icon/image, service name, and a short one-line description. Services: (1) Flex Banner Printing, (2) Digital Printing, (3) Visiting Cards, (4) Brochures & Pamphlets, (5) Poster Printing, (6) Signage & Shop Boards, (7) Vehicle Graphics & Branding, (8) Photo Prints & Wedding Cards. Cards should have a hover effect using the accent color palette.",
+      "files": [
+        "frontend/src/components/Services.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-4"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-gallery-portfolio-section-showcasing-sample-printed-products-display-images-in-a-masonry-or-responsive-grid-layout-with-8-12-sample-images-of-vibrant-banners-wedding-cards-hoardings-and-shop-boards-include-a-lightbox-or-modal-to-view-each-image-in-full-size-on-click",
+      "featureTitle": "Build a Gallery / Portfolio section showcasing sample printed products. Display images in a masonry or responsive grid layout with 8–12 sample images of vibrant banners, wedding cards, hoardings, and shop boards. Include a lightbox or modal to view each image in full size on click.",
+      "files": [
+        "frontend/src/components/Gallery.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-5"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-why-choose-us-section-with-the-heading-why-choose-sai-ekvira-graphics-and-the-following-bullet-points-presented-as-icon-accompanied-feature-cards-or-styled-list-items-1-high-quality-prints-2-latest-printing-machines-3-quick-turnaround-delivery-4-competitive-affordable-prices-5-100-customer-satisfaction-6-trusted-local-shop-in-kalyan-west",
+      "featureTitle": "Build a Why Choose Us section with the heading 'Why Choose Sai Ekvira Graphics?' and the following bullet points presented as icon-accompanied feature cards or styled list items: (1) High-Quality Prints, (2) Latest Printing Machines, (3) Quick Turnaround & Delivery, (4) Competitive & Affordable Prices, (5) 100% Customer Satisfaction, (6) Trusted Local Shop in Kalyan West.",
+      "files": [
+        "frontend/src/components/WhyChooseUs.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-6"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-contact-section-containing-1-a-contact-form-with-fields-name-phone-number-service-type-dropdown-with-the-8-services-and-message-plus-a-submit-button-2-business-contact-info-phone-097024-77181-as-a-clickable-tel-link-address-shop-no-09-namrata-heights-chs-adharwadi-kalyan-west-mumbai-maharashtra-421301-3-an-embedded-google-maps-iframe-pointing-to-the-address-adharwadi-kalyan-west-mumbai-the-form-state-should-be-managed-in-react-no-backend-submission-required-show-a-success-message-on-submit-also-add-a-floating-whatsapp-button-fixed-to-the-bottom-right-of-the-screen-linking-to-https-wa-me-919702477181",
+      "featureTitle": "Build a Contact section containing: (1) A contact form with fields: Name, Phone Number, Service Type (dropdown with the 8 services), and Message, plus a Submit button. (2) Business contact info: Phone 097024 77181 as a clickable tel: link, Address: Shop No 09, Namrata Heights CHS, Adharwadi, Kalyan West, Mumbai, Maharashtra 421301. (3) An embedded Google Maps iframe pointing to the address (Adharwadi, Kalyan West, Mumbai). The form state should be managed in React (no backend submission required — show a success message on submit). Also add a floating WhatsApp button fixed to the bottom-right of the screen linking to https://wa.me/919702477181.",
+      "files": [
+        "frontend/src/components/Contact.tsx",
+        "frontend/src/components/FloatingWhatsApp.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-7"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-build-a-footer-section-containing-business-name-sai-ekvira-graphics-full-address-shop-no-09-namrata-heights-chs-adharwadi-kalyan-west-mumbai-maharashtra-421301-phone-number-097024-77181-as-a-tel-link-placeholder-social-media-icons-links-for-instagram-and-facebook-and-copyright-text-2024-sai-ekvira-graphics-all-rights-reserved",
+      "featureTitle": "Build a Footer section containing: business name 'Sai Ekvira Graphics', full address (Shop No 09, Namrata Heights CHS, Adharwadi, Kalyan West, Mumbai, Maharashtra 421301), phone number 097024 77181 as a tel: link, placeholder social media icons/links for Instagram and Facebook, and copyright text '© 2024 Sai Ekvira Graphics. All Rights Reserved.'",
+      "files": [
+        "frontend/src/components/Footer.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-8"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-add-a-sticky-top-navigation-bar-with-the-business-name-logo-on-the-left-and-smooth-scroll-anchor-links-on-the-right-about-services-gallery-why-us-contact-on-mobile-collapse-into-a-hamburger-menu-the-navbar-should-have-a-solid-background-on-scroll-transparent-over-the-hero-solid-navy-when-scrolled",
+      "featureTitle": "Add a sticky top navigation bar with the business name/logo on the left and smooth-scroll anchor links on the right: About, Services, Gallery, Why Us, Contact. On mobile, collapse into a hamburger menu. The navbar should have a solid background on scroll (transparent over the hero, solid navy when scrolled).",
+      "files": [
+        "frontend/src/components/Navbar.tsx"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-9"
+      ],
+      "confidence": "high"
+    },
+    {
+      "featureId": "feature-implement-an-english-hindi-language-toggle-button-in-the-navigation-bar-when-hindi-is-selected-key-headings-and-labels-across-all-sections-switch-to-hindi-equivalents-e-g-about-us-our-services-contact-us-why-choose-us-gallery-body-content-can-remain-in-english-for-the-initial-build-only-section-headings-button-labels-and-navigation-links-need-to-be-translated",
+      "featureTitle": "Implement an English / Hindi language toggle button in the navigation bar. When Hindi is selected, key headings and labels across all sections switch to Hindi equivalents (e.g., 'About Us' → 'हमारे बारे में', 'Our Services' → 'हमारी सेवाएं', 'Contact Us' → 'संपर्क करें', 'Why Choose Us' → 'हमें क्यों चुनें', 'Gallery' → 'गैलरी'). Body content can remain in English for the initial build; only section headings, button labels, and navigation links need to be translated.",
+      "files": [
+        "frontend/src/App.tsx",
+        "frontend/src/components/About.tsx",
+        "frontend/src/components/Contact.tsx",
+        "frontend/src/components/Gallery.tsx",
+        "frontend/src/components/Hero.tsx",
+        "frontend/src/components/Navbar.tsx",
+        "frontend/src/components/Services.tsx",
+        "frontend/src/components/WhyChooseUs.tsx",
+        "frontend/src/hooks/useLanguage.ts"
+      ],
+      "components": [
+        "core-infrastructure@1.0.2",
+        "shadcn-ui@1.0.0",
+        "build-template-react@1.0.0",
+        "initial-app@1.0.0",
+        "github-export-icp-cli@1.0.0"
+      ],
+      "testIds": [
+        "REQ-10"
+      ],
+      "confidence": "high"
+    }
+  ]
+}

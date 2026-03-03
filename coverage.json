@@ -1,0 +1,264 @@
+{
+  "kind": "coverage_report",
+  "version": "1.0",
+  "generatedAt": "2026-03-02T04:55:48.758Z",
+  "sources": {
+    "buildRequest": true,
+    "implementationPlan": true
+  },
+  "requirements": {
+    "total": 10,
+    "implemented": 10,
+    "items": [
+      {
+        "id": "REQ-1",
+        "summary": "Apply a CMYK-inspired visual theme throughout the website: deep navy blue (#0A1F5C) as primary, vibrant orange (#FF6B00) as secondary accent, with cyan (#00AEEF), magenta (#EC008C), and yellow (#FFD700) as highlight accents on white (#FFFFFF) backgrounds. Use bold, modern typography (e.g., a strong sans-serif for headings). The design should feel vibrant yet professional, mobile-responsive, and evoke a high-energy Indian commercial printing shop.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/tailwind.config.js",
+          "frontend/src/index.css"
+        ],
+        "matchedFiles": [
+          "frontend/tailwind.config.js",
+          "frontend/src/index.css"
+        ]
+      },
+      {
+        "id": "REQ-10",
+        "summary": "Implement an English / Hindi language toggle button in the navigation bar. When Hindi is selected, key headings and labels across all sections switch to Hindi equivalents (e.g., 'About Us' → 'हमारे बारे में', 'Our Services' → 'हमारी सेवाएं', 'Contact Us' → 'संपर्क करें', 'Why Choose Us' → 'हमें क्यों चुनें', 'Gallery' → 'गैलरी'). Body content can remain in English for the initial build; only section headings, button labels, and navigation links need to be translated.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/hooks/useLanguage.ts",
+          "frontend/src/components/Navbar.tsx",
+          "frontend/src/components/Hero.tsx",
+          "frontend/src/components/About.tsx",
+          "frontend/src/components/Services.tsx",
+          "frontend/src/components/Gallery.tsx",
+          "frontend/src/components/WhyChooseUs.tsx",
+          "frontend/src/components/Contact.tsx",
+          "frontend/src/App.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/hooks/useLanguage.ts",
+          "frontend/src/components/Navbar.tsx",
+          "frontend/src/components/Hero.tsx",
+          "frontend/src/components/About.tsx",
+          "frontend/src/components/Services.tsx",
+          "frontend/src/components/Gallery.tsx",
+          "frontend/src/components/WhyChooseUs.tsx",
+          "frontend/src/components/Contact.tsx",
+          "frontend/src/App.tsx"
+        ]
+      },
+      {
+        "id": "REQ-2",
+        "summary": "Build a full-width Hero section at the top of the page featuring a printing-themed background image (colorful banners, large-format printers, finished hoardings/flex prints). Overlay the business name 'Sai Ekvira Graphics' as a large headline, the tagline 'Quality Printing Solutions in Kalyan – Fast, Affordable & Reliable', and three prominent CTA buttons: 'Call Now' (tel:09702477181), 'WhatsApp Us' (https://wa.me/919702477181), and 'Get Quote' (scrolls to contact section).",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Hero.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Hero.tsx"
+        ]
+      },
+      {
+        "id": "REQ-3",
+        "summary": "Build an About Us section with the heading 'About Us' and the body text: 'Leading commercial printing service in Kalyan offering top-quality digital & offset printing, banner printing, flex printing, visiting cards, pamphlets, wedding invitations, and custom branding solutions with fast turnaround and affordable prices.' Include operating hours: Monday–Saturday 10 AM – 9 PM, Sunday Closed. Include the address: Shop No 09, Namrata Heights CHS, Adharwadi, Kalyan West, Mumbai, Maharashtra 421301.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/About.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/About.tsx"
+        ]
+      },
+      {
+        "id": "REQ-4",
+        "summary": "Build an Our Services section displaying 8 service cards in a responsive grid. Each card should have an icon/image, service name, and a short one-line description. Services: (1) Flex Banner Printing, (2) Digital Printing, (3) Visiting Cards, (4) Brochures & Pamphlets, (5) Poster Printing, (6) Signage & Shop Boards, (7) Vehicle Graphics & Branding, (8) Photo Prints & Wedding Cards. Cards should have a hover effect using the accent color palette.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Services.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Services.tsx"
+        ]
+      },
+      {
+        "id": "REQ-5",
+        "summary": "Build a Gallery / Portfolio section showcasing sample printed products. Display images in a masonry or responsive grid layout with 8–12 sample images of vibrant banners, wedding cards, hoardings, and shop boards. Include a lightbox or modal to view each image in full size on click.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Gallery.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Gallery.tsx"
+        ]
+      },
+      {
+        "id": "REQ-6",
+        "summary": "Build a Why Choose Us section with the heading 'Why Choose Sai Ekvira Graphics?' and the following bullet points presented as icon-accompanied feature cards or styled list items: (1) High-Quality Prints, (2) Latest Printing Machines, (3) Quick Turnaround & Delivery, (4) Competitive & Affordable Prices, (5) 100% Customer Satisfaction, (6) Trusted Local Shop in Kalyan West.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/WhyChooseUs.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/WhyChooseUs.tsx"
+        ]
+      },
+      {
+        "id": "REQ-7",
+        "summary": "Build a Contact section containing: (1) A contact form with fields: Name, Phone Number, Service Type (dropdown with the 8 services), and Message, plus a Submit button. (2) Business contact info: Phone 097024 77181 as a clickable tel: link, Address: Shop No 09, Namrata Heights CHS, Adharwadi, Kalyan West, Mumbai, Maharashtra 421301. (3) An embedded Google Maps iframe pointing to the address (Adharwadi, Kalyan West, Mumbai). The form state should be managed in React (no backend submission required — show a success message on submit). Also add a floating WhatsApp button fixed to the bottom-right of the screen linking to https://wa.me/919702477181.",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Contact.tsx",
+          "frontend/src/components/FloatingWhatsApp.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Contact.tsx",
+          "frontend/src/components/FloatingWhatsApp.tsx"
+        ]
+      },
+      {
+        "id": "REQ-8",
+        "summary": "Build a Footer section containing: business name 'Sai Ekvira Graphics', full address (Shop No 09, Namrata Heights CHS, Adharwadi, Kalyan West, Mumbai, Maharashtra 421301), phone number 097024 77181 as a tel: link, placeholder social media icons/links for Instagram and Facebook, and copyright text '© 2024 Sai Ekvira Graphics. All Rights Reserved.'",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Footer.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Footer.tsx"
+        ]
+      },
+      {
+        "id": "REQ-9",
+        "summary": "Add a sticky top navigation bar with the business name/logo on the left and smooth-scroll anchor links on the right: About, Services, Gallery, Why Us, Contact. On mobile, collapse into a hamburger menu. The navbar should have a solid background on scroll (transparent over the hero, solid navy when scrolled).",
+        "status": "implemented",
+        "plannedFiles": [
+          "frontend/src/components/Navbar.tsx"
+        ],
+        "matchedFiles": [
+          "frontend/src/components/Navbar.tsx"
+        ]
+      }
+    ]
+  },
+  "changedFiles": [
+    "backend/main.mo",
+    "build-request.json",
+    "build-template/Dockerfile",
+    "build-template/LICENSE",
+    "build-template/README.md",
+    "build-template/deploy.sh",
+    "build-template/icp.yaml",
+    "build-template/package.json",
+    "build-template/pnpm-lock.yaml",
+    "build-template/pnpm-workspace.yaml",
+    "build-template/scripts/prune-unused-images.js",
+    "build-template/scripts/resize-images.js",
+    "build-template/src/backend/canister.yaml",
+    "build-template/src/backend/system-idl/aaaaa-aa.did",
+    "build-template/src/frontend/canister.yaml",
+    "build-template/src/frontend/components.json",
+    "build-template/src/frontend/env.json",
+    "build-template/src/frontend/eslint-rules/no-bigint-in-query-keys.js",
+    "build-template/src/frontend/eslint-rules/require-internet-identity-provider.js",
+    "build-template/src/frontend/eslint.config.js",
+    "build-template/src/frontend/package.json",
+    "build-template/src/frontend/postcss.config.js",
+    "build-template/src/frontend/src/components/ui/accordion.tsx",
+    "build-template/src/frontend/src/components/ui/alert-dialog.tsx",
+    "build-template/src/frontend/src/components/ui/alert.tsx",
+    "build-template/src/frontend/src/components/ui/aspect-ratio.tsx",
+    "build-template/src/frontend/src/components/ui/avatar.tsx",
+    "build-template/src/frontend/src/components/ui/badge.tsx",
+    "build-template/src/frontend/src/components/ui/breadcrumb.tsx",
+    "build-template/src/frontend/src/components/ui/button.tsx",
+    "build-template/src/frontend/src/components/ui/calendar.tsx",
+    "build-template/src/frontend/src/components/ui/card.tsx",
+    "build-template/src/frontend/src/components/ui/carousel.tsx",
+    "build-template/src/frontend/src/components/ui/chart.tsx",
+    "build-template/src/frontend/src/components/ui/checkbox.tsx",
+    "build-template/src/frontend/src/components/ui/collapsible.tsx",
+    "build-template/src/frontend/src/components/ui/command.tsx",
+    "build-template/src/frontend/src/components/ui/context-menu.tsx",
+    "build-template/src/frontend/src/components/ui/dialog.tsx",
+    "build-template/src/frontend/src/components/ui/drawer.tsx",
+    "build-template/src/frontend/src/components/ui/dropdown-menu.tsx",
+    "build-template/src/frontend/src/components/ui/form.tsx",
+    "build-template/src/frontend/src/components/ui/hover-card.tsx",
+    "build-template/src/frontend/src/components/ui/input-otp.tsx",
+    "build-template/src/frontend/src/components/ui/input.tsx",
+    "build-template/src/frontend/src/components/ui/label.tsx",
+    "build-template/src/frontend/src/components/ui/menubar.tsx",
+    "build-template/src/frontend/src/components/ui/navigation-menu.tsx",
+    "build-template/src/frontend/src/components/ui/pagination.tsx",
+    "build-template/src/frontend/src/components/ui/popover.tsx",
+    "build-template/src/frontend/src/components/ui/progress.tsx",
+    "build-template/src/frontend/src/components/ui/radio-group.tsx",
+    "build-template/src/frontend/src/components/ui/resizable.tsx",
+    "build-template/src/frontend/src/components/ui/scroll-area.tsx",
+    "build-template/src/frontend/src/components/ui/select.tsx",
+    "build-template/src/frontend/src/components/ui/separator.tsx",
+    "build-template/src/frontend/src/components/ui/sheet.tsx",
+    "build-template/src/frontend/src/components/ui/sidebar.tsx",
+    "build-template/src/frontend/src/components/ui/skeleton.tsx",
+    "build-template/src/frontend/src/components/ui/slider.tsx",
+    "build-template/src/frontend/src/components/ui/sonner.tsx",
+    "build-template/src/frontend/src/components/ui/switch.tsx",
+    "build-template/src/frontend/src/components/ui/table.tsx",
+    "build-template/src/frontend/src/components/ui/tabs.tsx",
+    "build-template/src/frontend/src/components/ui/textarea.tsx",
+    "build-template/src/frontend/src/components/ui/toggle-group.tsx",
+    "build-template/src/frontend/src/components/ui/toggle.tsx",
+    "build-template/src/frontend/src/components/ui/tooltip.tsx",
+    "build-template/src/frontend/src/hooks/use-mobile.tsx",
+    "build-template/src/frontend/src/lib/utils.ts",
+    "build-template/src/frontend/tsconfig.json",
+    "build-template/src/frontend/vite.config.js",
+    "build-template/tsconfig.json",
+    "caffeine.lock.json",
+    "feature_evidence.json",
+    "frontend-file-summaries.txt",
+    "frontend-implementation-plan.json",
+    "frontend/index.css",
+    "frontend/index.html",
+    "frontend/public/assets/generated/about-printer-machine.dim_900x600.jpg",
+    "frontend/public/assets/generated/gallery-brochure.dim_800x600.jpg",
+    "frontend/public/assets/generated/gallery-flex-banner.dim_800x600.jpg",
+    "frontend/public/assets/generated/gallery-hoarding.dim_800x600.jpg",
+    "frontend/public/assets/generated/gallery-posters.dim_800x600.jpg",
+    "frontend/public/assets/generated/gallery-signage.dim_800x600.jpg",
+    "frontend/public/assets/generated/gallery-vehicle-branding.dim_800x600.jpg",
+    "frontend/public/assets/generated/gallery-visiting-cards.dim_800x600.jpg",
+    "frontend/public/assets/generated/gallery-wedding-card.dim_800x600.jpg",
+    "frontend/public/assets/generated/hero-banner.dim_1920x900.jpg",
+    "frontend/src/App.tsx",
+    "frontend/src/backend.d.ts",
+    "frontend/src/backend.ts",
+    "frontend/src/components/About.tsx",
+    "frontend/src/components/Contact.tsx",
+    "frontend/src/components/FloatingWhatsApp.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/Gallery.tsx",
+    "frontend/src/components/Hero.tsx",
+    "frontend/src/components/Navbar.tsx",
+    "frontend/src/components/Services.tsx",
+    "frontend/src/components/WhyChooseUs.tsx",
+    "frontend/src/config.ts",
+    "frontend/src/declarations/backend.did.d.ts",
+    "frontend/src/declarations/backend.did.js",
+    "frontend/src/hooks/useActor.ts",
+    "frontend/src/hooks/useInternetIdentity.ts",
+    "frontend/src/hooks/useLanguage.ts",
+    "frontend/src/hooks/useQueries.ts",
+    "frontend/src/index.css",
+    "frontend/src/main.tsx",
+    "frontend/src/ui-summary.json",
+    "frontend/src/utils/StorageClient.ts",
+    "frontend/tailwind.config.js",
+    "project_state.json",
+    "scratch/component-selection.json",
+    "spec.md",
+    "spec_vs_diff_report.json"
+  ]
+}

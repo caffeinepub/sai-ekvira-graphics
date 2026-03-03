@@ -1,0 +1,87 @@
+{
+  "kind": "spec_vs_diff_report",
+  "version": "1.0",
+  "generatedAt": "2026-03-02T04:55:48.755Z",
+  "summary": "The diff implements a comprehensive React-based business website for Sai Ekvira Graphics covering all 10 requirements. All major sections are present: Navbar (REQ-9, REQ-10), Hero (REQ-2), About (REQ-3), Services (REQ-4), Gallery (REQ-5), WhyChooseUs (REQ-6), Contact (REQ-7), Footer (REQ-8), FloatingWhatsApp (REQ-7), and the useLanguage hook (REQ-10). The CMYK theme, phone numbers, and Google Maps embed are all addressed. A few minor gaps exist around specific acceptance criteria details.",
+  "missing_requirements": [],
+  "hallucinated_features": [
+    {
+      "description": "InternetIdentityProvider and useInternetIdentity hook wrapping the app with ICP authentication infrastructure",
+      "reason": "The build request explicitly states no user authentication or login is required. The diff includes full Internet Identity auth client setup, useActor hook, and wraps the entire app in InternetIdentityProvider — none of which were requested.",
+      "evidence": [
+        "frontend/src/hooks/useInternetIdentity.ts",
+        "frontend/src/hooks/useActor.ts",
+        "frontend/src/main.tsx"
+      ]
+    },
+    {
+      "description": "QueryClientProvider and React Query setup in main.tsx",
+      "reason": "No backend queries are needed per the build request (no backend required), and useQueries.ts itself notes this. Wrapping the app in QueryClientProvider adds unrequested infrastructure.",
+      "evidence": [
+        "frontend/src/main.tsx",
+        "frontend/src/hooks/useQueries.ts"
+      ]
+    },
+    {
+      "description": "Stats bar in the Hero section showing '500+ Happy Clients', '10+ Years Experience', '1000+ Projects Done'",
+      "reason": "The build request specifies the hero content as business name, tagline, and three CTA buttons only. The stats bar with these specific metrics was not requested.",
+      "evidence": [
+        "frontend/src/components/Hero.tsx"
+      ]
+    },
+    {
+      "description": "WhatsApp icon link added to the Footer social media section",
+      "reason": "REQ-8 specifies only Instagram and Facebook placeholder social media icons/links in the footer. Adding a WhatsApp link in the footer was not requested.",
+      "evidence": [
+        "frontend/src/components/Footer.tsx"
+      ]
+    },
+    {
+      "description": "CTA buttons (Call and WhatsApp) added to the WhyChooseUs section",
+      "reason": "REQ-6 only requests 6 feature cards with icons. Adding call/WhatsApp CTA buttons inside the WhyChooseUs section was not requested.",
+      "evidence": [
+        "frontend/src/components/WhyChooseUs.tsx"
+      ]
+    },
+    {
+      "description": "Lightbox with previous/next navigation arrows between gallery images",
+      "reason": "REQ-5 only requests a lightbox/modal to view each image in full size on click. Navigation between images in the lightbox was not specified.",
+      "evidence": [
+        "frontend/src/components/Gallery.tsx"
+      ]
+    },
+    {
+      "description": "backend/main.mo actor file",
+      "reason": "The build request explicitly states no backend is required. An empty Motoko actor file was still added.",
+      "evidence": [
+        "backend/main.mo"
+      ]
+    }
+  ],
+  "confidence": 0.82,
+  "changed_files": [
+    "all_files_summary.json",
+    "backend/main.mo",
+    "frontend-file-summaries.txt",
+    "frontend/index.css",
+    "frontend/index.html",
+    "frontend/src/App.tsx",
+    "frontend/src/components/About.tsx",
+    "frontend/src/components/Contact.tsx",
+    "frontend/src/components/FloatingWhatsApp.tsx",
+    "frontend/src/components/Footer.tsx",
+    "frontend/src/components/Gallery.tsx",
+    "frontend/src/components/Hero.tsx",
+    "frontend/src/components/Navbar.tsx",
+    "frontend/src/components/Services.tsx",
+    "frontend/src/components/WhyChooseUs.tsx",
+    "frontend/src/hooks/useActor.ts",
+    "frontend/src/hooks/useInternetIdentity.ts",
+    "frontend/src/hooks/useLanguage.ts",
+    "frontend/src/hooks/useQueries.ts",
+    "frontend/src/index.css",
+    "frontend/src/main.tsx",
+    "frontend/tailwind.config.js",
+    "project_state.json"
+  ]
+}

@@ -1,0 +1,225 @@
+{
+  "kind": "build_request",
+  "title": "Sai Ekvira Graphics Business Website",
+  "projectName": "Sai Ekvira Graphics",
+  "priority": "normal",
+  "requirements": [
+    {
+      "id": "REQ-1",
+      "text": "Apply a CMYK-inspired visual theme throughout the website: deep navy blue (#0A1F5C) as primary, vibrant orange (#FF6B00) as secondary accent, with cyan (#00AEEF), magenta (#EC008C), and yellow (#FFD700) as highlight accents on white (#FFFFFF) backgrounds. Use bold, modern typography (e.g., a strong sans-serif for headings). The design should feel vibrant yet professional, mobile-responsive, and evoke a high-energy Indian commercial printing shop.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Vibrant yet professional – primary colors like deep blue/orange/red (inspired by Indian printing shops), white background for readability, accents in cyan/magenta/yellow to represent printing/CMYK theme"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Deep blue, orange, and CMYK accent colors are consistently used across all sections",
+        "White background ensures readability throughout",
+        "Bold sans-serif headings are used consistently",
+        "All sections are fully mobile-responsive"
+      ]
+    },
+    {
+      "id": "REQ-2",
+      "text": "Build a full-width Hero section at the top of the page featuring a printing-themed background image (colorful banners, large-format printers, finished hoardings/flex prints). Overlay the business name 'Sai Ekvira Graphics' as a large headline, the tagline 'Quality Printing Solutions in Kalyan – Fast, Affordable & Reliable', and three prominent CTA buttons: 'Call Now' (tel:09702477181), 'WhatsApp Us' (https://wa.me/919702477181), and 'Get Quote' (scrolls to contact section).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Hero section: Full-width banner with high-resolution printing-themed background",
+          "overlay text: 'Sai Ekvira Graphics – Your Trusted Commercial Printer in Kalyan West' + big call-to-action buttons: 'Call Now' / 'WhatsApp Us' / 'Get Quote'"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Hero section spans full viewport width",
+        "Background image is printing-themed with a semi-transparent dark overlay for text legibility",
+        "Business name and tagline are prominently displayed",
+        "Call Now button triggers tel:09702477181",
+        "WhatsApp Us button links to https://wa.me/919702477181",
+        "Get Quote button smoothly scrolls to the Contact section"
+      ]
+    },
+    {
+      "id": "REQ-3",
+      "text": "Build an About Us section with the heading 'About Us' and the body text: 'Leading commercial printing service in Kalyan offering top-quality digital & offset printing, banner printing, flex printing, visiting cards, pamphlets, wedding invitations, and custom branding solutions with fast turnaround and affordable prices.' Include operating hours: Monday–Saturday 10 AM – 9 PM, Sunday Closed. Include the address: Shop No 09, Namrata Heights CHS, Adharwadi, Kalyan West, Mumbai, Maharashtra 421301.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "About Us: Short description – 'Leading commercial printing service in Kalyan...'"
+        ]
+      },
+      "acceptanceCriteria": [
+        "About Us section is clearly visible with heading and body text",
+        "Operating hours (Mon–Sat 10 AM–9 PM, Sunday Closed) are displayed",
+        "Full business address is shown"
+      ]
+    },
+    {
+      "id": "REQ-4",
+      "text": "Build an Our Services section displaying 8 service cards in a responsive grid. Each card should have an icon/image, service name, and a short one-line description. Services: (1) Flex Banner Printing, (2) Digital Printing, (3) Visiting Cards, (4) Brochures & Pamphlets, (5) Poster Printing, (6) Signage & Shop Boards, (7) Vehicle Graphics & Branding, (8) Photo Prints & Wedding Cards. Cards should have a hover effect using the accent color palette.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Our Services: Grid or cards showcasing 6–8 services with icons/images (flex printing, banner printing, visiting cards, brochures, posters, signage, vehicle graphics, photo prints)"
+        ]
+      },
+      "acceptanceCriteria": [
+        "8 service cards are displayed in a responsive grid (4 columns on desktop, 2 on tablet, 1 on mobile)",
+        "Each card has an icon, service name, and short description",
+        "Hover effect uses theme accent colors"
+      ]
+    },
+    {
+      "id": "REQ-5",
+      "text": "Build a Gallery / Portfolio section showcasing sample printed products. Display images in a masonry or responsive grid layout with 8–12 sample images of vibrant banners, wedding cards, hoardings, and shop boards. Include a lightbox or modal to view each image in full size on click.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Gallery/Portfolio: Carousel or masonry grid of sample printed products (vibrant banners, wedding cards, hoardings, shop boards)"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Gallery section contains at least 8 sample printed product images",
+        "Images are arranged in a masonry or responsive grid",
+        "Clicking an image opens it in a lightbox/modal"
+      ]
+    },
+    {
+      "id": "REQ-6",
+      "text": "Build a Why Choose Us section with the heading 'Why Choose Sai Ekvira Graphics?' and the following bullet points presented as icon-accompanied feature cards or styled list items: (1) High-Quality Prints, (2) Latest Printing Machines, (3) Quick Turnaround & Delivery, (4) Competitive & Affordable Prices, (5) 100% Customer Satisfaction, (6) Trusted Local Shop in Kalyan West.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Why Choose Us: Bullet points – High-quality prints, Latest machines, Quick delivery, Competitive prices, Customer satisfaction, Local trusted shop in Kalyan"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Section heading 'Why Choose Sai Ekvira Graphics?' is displayed",
+        "All 6 feature points are shown with icons or styled indicators",
+        "Section is visually distinct from adjacent sections"
+      ]
+    },
+    {
+      "id": "REQ-7",
+      "text": "Build a Contact section containing: (1) A contact form with fields: Name, Phone Number, Service Type (dropdown with the 8 services), and Message, plus a Submit button. (2) Business contact info: Phone 097024 77181 as a clickable tel: link, Address: Shop No 09, Namrata Heights CHS, Adharwadi, Kalyan West, Mumbai, Maharashtra 421301. (3) An embedded Google Maps iframe pointing to the address (Adharwadi, Kalyan West, Mumbai). The form state should be managed in React (no backend submission required — show a success message on submit). Also add a floating WhatsApp button fixed to the bottom-right of the screen linking to https://wa.me/919702477181.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Contact & Map: Embedded Google Maps iframe/pin at the address, contact form (name, phone, message, service type), phone number, WhatsApp floating button"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Contact form has Name, Phone, Service Type (dropdown), and Message fields with a Submit button",
+        "Submitting the form shows a success message",
+        "Phone number is a clickable tel: link",
+        "Google Maps iframe is embedded showing the Adharwadi, Kalyan West area",
+        "Floating WhatsApp button is fixed bottom-right and links to https://wa.me/919702477181",
+        "WhatsApp button is visible on all pages/scroll positions"
+      ]
+    },
+    {
+      "id": "REQ-8",
+      "text": "Build a Footer section containing: business name 'Sai Ekvira Graphics', full address (Shop No 09, Namrata Heights CHS, Adharwadi, Kalyan West, Mumbai, Maharashtra 421301), phone number 097024 77181 as a tel: link, placeholder social media icons/links for Instagram and Facebook, and copyright text '© 2024 Sai Ekvira Graphics. All Rights Reserved.'",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Footer: Business name, address, phone, social links (Instagram/Facebook if available), copyright"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Footer displays business name, address, and clickable phone number",
+        "Instagram and Facebook icon links are present",
+        "Copyright line is displayed"
+      ]
+    },
+    {
+      "id": "REQ-9",
+      "text": "Add a sticky top navigation bar with the business name/logo on the left and smooth-scroll anchor links on the right: About, Services, Gallery, Why Us, Contact. On mobile, collapse into a hamburger menu. The navbar should have a solid background on scroll (transparent over the hero, solid navy when scrolled).",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "single-page or multi-page business website",
+          "mobile-responsive"
+        ]
+      },
+      "acceptanceCriteria": [
+        "Navbar is sticky/fixed at the top",
+        "Navigation links scroll smoothly to each section",
+        "Navbar transitions from transparent to solid navy on scroll",
+        "On mobile, links collapse into a hamburger menu"
+      ]
+    },
+    {
+      "id": "REQ-10",
+      "text": "Implement an English / Hindi language toggle button in the navigation bar. When Hindi is selected, key headings and labels across all sections switch to Hindi equivalents (e.g., 'About Us' → 'हमारे बारे में', 'Our Services' → 'हमारी सेवाएं', 'Contact Us' → 'संपर्क करें', 'Why Choose Us' → 'हमें क्यों चुनें', 'Gallery' → 'गैलरी'). Body content can remain in English for the initial build; only section headings, button labels, and navigation links need to be translated.",
+      "target": "frontend",
+      "source": {
+        "messageIds": [
+          "msg-2"
+        ],
+        "quotes": [
+          "Include Hindi/Marathi language toggle if possible for local audience"
+        ]
+      },
+      "acceptanceCriteria": [
+        "A toggle button in the navbar switches between English and Hindi",
+        "Section headings, navigation labels, and key button labels change language on toggle",
+        "The toggle state persists while the user is on the page"
+      ]
+    }
+  ],
+  "constraints": [
+    "No backend is required — the contact form should handle state in React and show a success message without server submission",
+    "All phone/WhatsApp links must use the exact number 09702477181 (international: +91 9702477181)",
+    "Google Maps embed should target Adharwadi, Kalyan West, Mumbai area"
+  ],
+  "nonGoals": [
+    "E-commerce or online ordering functionality",
+    "User authentication or login",
+    "Real backend form submission or email delivery",
+    "Marathi language support (Hindi toggle only for initial build)",
+    "Social media feed integration"
+  ],
+  "imageRequirements": {
+    "required": [
+      "Wide-format printing shop interior with large colorful flex banners and hoardings displayed, vibrant CMYK color scheme, professional commercial printing environment (hero-banner.dim_1920x900.jpg)",
+      "Close-up of freshly printed vibrant flex banner being rolled, warm studio lighting (gallery-flex-banner.dim_800x600.jpg)",
+      "Stack of premium glossy visiting cards with colorful designs fanned out on white surface (gallery-visiting-cards.dim_800x600.jpg)",
+      "Elegant ornate Indian wedding invitation card with gold and red design on white background (gallery-wedding-card.dim_800x600.jpg)",
+      "Colorful brochure trifold open showing vibrant print design, top-down flat lay (gallery-brochure.dim_800x600.jpg)",
+      "Large outdoor hoarding billboard with bold commercial print graphic on blue sky background (gallery-hoarding.dim_800x600.jpg)",
+      "Commercial vehicle with full-body wrap branding graphic design (gallery-vehicle-branding.dim_800x600.jpg)",
+      "Illuminated shop signage board with bold lettering against dark background (gallery-signage.dim_800x600.jpg)",
+      "Colorful A3 poster prints spread across a light table in a print shop (gallery-posters.dim_800x600.jpg)",
+      "Modern large-format digital inkjet printer with colorful output, printing shop environment (about-printer-machine.dim_900x600.jpg)"
+    ],
+    "edits": []
+  }
+}

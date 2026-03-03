@@ -1,0 +1,16 @@
+{
+  "frontend/src/index.css": "Global styles with CMYK-inspired OKLCH color tokens, Google Fonts import for Montserrat (headings) and Open Sans (body), and utility classes for brand colors, section headings, and button styles.",
+  "frontend/tailwind.config.js": "Extended Tailwind config with custom brand colors (navy, brand-orange, brand-cyan, brand-magenta, brand-yellow), Montserrat/Open Sans font families, custom box shadows, and animation keyframes.",
+  "frontend/src/hooks/useLanguage.ts": "Custom React hook managing English/Hindi language toggle state with full translation objects covering all section headings, navigation labels, button text, and form labels.",
+  "frontend/src/hooks/useQueries.ts": "Placeholder file for React Query hooks; no backend queries needed for this static business website.",
+  "frontend/src/App.tsx": "Root application component that wires together all page sections (Navbar, Hero, About, Services, Gallery, WhyChooseUs, Contact, Footer, FloatingWhatsApp) using the useLanguage hook for bilingual support.",
+  "frontend/src/components/Navbar.tsx": "Sticky top navigation bar with business logo, smooth-scroll anchor links, transparent-to-navy scroll transition, mobile hamburger menu, and English/Hindi language toggle button.",
+  "frontend/src/components/Hero.tsx": "Full-viewport hero section with printing-themed background image, dark gradient overlay, business name, tagline, stats bar, and three CTA buttons (Call Now, WhatsApp Us, Get Quote).",
+  "frontend/src/components/About.tsx": "About Us section with printer machine image, business description, service highlights checklist, operating hours card, address card, and clickable phone link.",
+  "frontend/src/components/Services.tsx": "Responsive 4-column services grid displaying 8 service cards with emoji icons, names, descriptions, and CMYK-colored hover effects.",
+  "frontend/src/components/Gallery.tsx": "Portfolio gallery with 8 printed product images in a responsive grid, hover zoom overlay, and a full lightbox modal with prev/next navigation.",
+  "frontend/src/components/WhyChooseUs.tsx": "Dark navy section showcasing 6 feature cards with Lucide icons and CMYK accent colors, plus CTA buttons for call and WhatsApp.",
+  "frontend/src/components/Contact.tsx": "Contact section with a validated React-managed form (name, phone, service dropdown, message), success state, business info cards, WhatsApp button, and Google Maps embed.",
+  "frontend/src/components/FloatingWhatsApp.tsx": "Fixed bottom-right floating WhatsApp button with SVG icon linking to the business WhatsApp number, visible across all scroll positions.",
+  "frontend/src/components/Footer.tsx": "Multi-column footer with brand identity, social media links (Instagram, Facebook, WhatsApp), quick navigation links, contact info, copyright, and caffeine.ai attribution."
+}
